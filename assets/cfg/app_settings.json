@@ -1,0 +1,5 @@
+{
+  "app_prod": false,
+  "url_api_prod": "http://142.93.98.5",
+  "url_api_dev": "http://192.168.43.167:8000"
+}
