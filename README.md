@@ -1,16 +1,24 @@
-# tourist_flutter
+# Tourist Flutter App
 
-A new Flutter project.
+Aplicación para la gestión de sitios turísticos
 
-## Getting Started
+## Plugins utilizados
 
-This project is a starting point for a Flutter application.
+- [global_configuration](https://pub.dev/packages/global_configuration)
+- [scoped_model](https://pub.dev/packages/scoped_model)
+- [font_awesome_flutter](https://pub.dev/packages/font_awesome_flutter)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Compilación
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+En el archivo ubicado en /assets/cfg/app_settings.json se encuentra toda la parte de la configuración ya sea para producción, en dependencua de la opción a marcar va a ser la configuración del servidor que adopte la aplicación al compilar; en caso de cambiar la dirección IP.
+
+flutter build apk --target-platform android-arm,android-arm64,android-x64 --split-per-abi
+
+### IDE
+
+- Android Studio 4.0.1
+- Plugins:
+	- Dart
+	- Flutter
+
